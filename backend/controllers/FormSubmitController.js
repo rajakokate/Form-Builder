@@ -6,7 +6,7 @@ const Form = require("../models/form");
 const submitForm = async (req, res) => {
   try {
     const { formId } = req.params;
-    console.log(`Received formId: ${formId}`); // Log formId for debugging
+    
 
     const formData = req.body;
 

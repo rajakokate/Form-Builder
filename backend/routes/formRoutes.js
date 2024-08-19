@@ -16,7 +16,7 @@ router.get("/form/:id", FormController.getFormById);
 router.put("/form/:id/edit", FormController.updateFormById);
 
 // Route to submit a form
-router.post("/form/:formId/submit", FormSubmitController.submitForm); // Ensure you have this controller defined
+router.post("/form/:formId/submit", FormSubmitController.submitForm); 
 
 // router to delete a form
 router.delete('/form/:id', FormController.deleteFormById)

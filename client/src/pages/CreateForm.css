@@ -22,20 +22,20 @@
 .input-items {
   display: grid; /* Enables grid layout */
   grid-template-columns: repeat(2, 1fr); /* 2 columns layout */
-  gap: 10px; /* Space between items */
+  gap: 10px; 
   border-radius: 4px;
   /* background-color: #f9f9f9; */
   text-align: left;
   
   max-width: 90%;
   width: 100%;
-  padding: 10px; /* Padding inside grid */
+  padding: 10px;
 }
 
 /* Style for each input item */
 .input-item {
   display: flex;
-  align-items: center; /* Stack input and actions vertically */
+  align-items: center; 
   gap: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -44,20 +44,20 @@
 .input-actions {
   margin-top: 10px;
   display: flex;
-  gap: 5px; /* Space between action buttons */
+  gap: 5px; 
 }
 
 /* Style for header container to center items */
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: center; /* Center items horizontally */
+  justify-content: center; 
   margin-bottom: 10px;
 }
 
 /* Style for form title */
 .header-container .form-title {
-  margin-right: 10px; /* Space between title and edit button */
+  margin-right: 10px; 
 }
 
 /* Style for the create form button */
@@ -72,15 +72,15 @@
  
 
 .input-bottom-border {
-    border: none; /* Remove all borders */
-  border-bottom: 1px solid #ccc; /* Add a bottom border */
-  padding: 8px; /* Optional: add padding for better spacing */
+    border: none; 
+  border-bottom: 1px solid #ccc; 
+  padding: 8px; 
   outline: none; 
-  box-shadow: none; /* Remove default focus shadow */
+  box-shadow: none; 
 }
 
 .input-bottom-border:focus {
-  border-bottom: 2px solid #add8e6; /* Light blue color */
+  border-bottom: 2px solid #add8e6; 
 }
 
 .add-input-button {
