@@ -13,7 +13,7 @@ const submitForm = async (req, res) => {
     //Validate the form by ID
     const form = await Form.findById(formId);
     if (!form) {
-        console.log("Form not found in databse")// log when form is not found
+        console.log("Form not found in database")// log when form is not found
       return res.status(404).json({ error: "form not found" });
     }
 
