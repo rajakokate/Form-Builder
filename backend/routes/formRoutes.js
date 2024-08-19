@@ -15,11 +15,10 @@ router.get("/form/:id", FormController.getFormById);
 // Route to update an existing form by ID
 router.put("/form/:id/edit", FormController.updateFormById);
 
-// Route to submit a form
-router.post("/form/:formId/submit", FormSubmitController.submitForm); 
-
 // router to delete a form
-router.delete('/form/:id', FormController.deleteFormById)
+router.delete("/form/:id", FormController.deleteFormById);
 
+// Route to submit a form
+router.post("/form/:formId/submit", FormSubmitController.submitForm);
 
 module.exports = router;
