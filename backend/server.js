@@ -10,7 +10,7 @@ const formRoutes = require("./routes/formRoutes");
 const port = process.env.PORT || 5000;
 
 const app = express();
-app.use(bodyParser.json()); // middleware to parse json requests
+// app.use(bodyParser.json()); // middleware to parse json requests
 
 // connect to mongodb
 connectDB();
